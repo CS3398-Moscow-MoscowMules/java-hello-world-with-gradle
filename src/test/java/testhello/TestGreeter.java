@@ -34,4 +34,12 @@ public class TestGreeter {
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello New World War!");
    }
+	
+   @Test
+   public void newtestSJGreeterPass() 
+   {
+      g.setName("Definitely not null!");
+      assertNotNull(g.getName());
+      assertNotNull(g.sayHello());
+   }
 }
