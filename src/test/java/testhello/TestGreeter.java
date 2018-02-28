@@ -46,6 +46,6 @@ public class TestGreeter {
    @Test
    public void newtestSJGreeterFail() {
       g.setName("null"); //definitely not null!
-      assertNotNull(g.getName());
+      assertNull(g.getName());
    }
 }
