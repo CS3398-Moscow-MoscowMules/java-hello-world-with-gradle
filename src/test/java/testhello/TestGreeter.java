@@ -28,7 +28,7 @@ public class TestGreeter {
    }
 	
    @Test
-   public void newtestPSGreeter() 
+   public void newtestPSGreeterPass() 
    {
       g.setName("Payton Suiter");
       assertEquals(g.getName(),"Payton Suiter");
