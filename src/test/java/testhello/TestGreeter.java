@@ -34,4 +34,12 @@ public class TestGreeter {
       assertEquals(g.getName(),"World War");
       assertEquals(g.sayHello(),"Hello New World War!");
    }
+	
+   @Test
+   public void newtestPSGreeter() 
+   {
+      g.setName("Payton Suiter");
+      assertEquals(g.getName(),"Payton Suiter");
+      assertEquals(g.sayHello(),"Hello New Payton Suiter!");
+   }
 }
