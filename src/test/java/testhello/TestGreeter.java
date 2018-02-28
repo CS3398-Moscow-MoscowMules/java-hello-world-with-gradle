@@ -28,14 +28,6 @@ public class TestGreeter {
    }
 	
    @Test
-   public void testGreeter() 
-   {
-      g.setName("World War");
-      assertEquals(g.getName(),"World War");
-      assertEquals(g.sayHello(),"Hello New World War!");
-   }
-	
-   @Test
    public void newtestPSGreeter() 
    {
       g.setName("Payton Suiter");
