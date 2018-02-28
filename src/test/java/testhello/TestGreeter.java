@@ -40,6 +40,5 @@ public class TestGreeter {
    {
       g.setName("Payton Suiter");
       assertEquals(g.getName(),"Payton Suiter");
-      assertEquals(g.sayHello(),"Hello New Payton Suiter!");
    }
 }
