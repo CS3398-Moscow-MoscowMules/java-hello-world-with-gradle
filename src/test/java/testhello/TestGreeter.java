@@ -33,4 +33,11 @@ public class TestGreeter {
       g.setName("Payton Suiter");
       assertEquals(g.getName(),"Payton Suiter");
    }
+
+    @Test
+   public void newtestPSGreeterFail() 
+   {
+      g.setName("Payton Suiter");
+      assertEquals(g.getName(),"Not Payton Suiter");
+   }	
 }
