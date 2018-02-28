@@ -42,4 +42,10 @@ public class TestGreeter {
       assertNotNull(g.getName());
       assertNotNull(g.sayHello());
    }
+	
+   @Test
+   public void newtestSJGreeterFail() {
+      g.setName("null"); //definitely not null!
+      assertNotNull(g.getName());
+   }
 }
