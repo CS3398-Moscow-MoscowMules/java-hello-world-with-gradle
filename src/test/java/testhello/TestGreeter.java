@@ -32,7 +32,7 @@ public class TestGreeter {
    {
       g.setName("World War");
       assertEquals(g.getName(),"World War");
-      assertEquals(g.sayHello(),"Hello New World War!");
+      assertEquals(g.sayHello(),"Hello World War!");
    }
 	
    @Test
@@ -40,5 +40,6 @@ public class TestGreeter {
    {
       g.setName("Definitely not null!");
       assertNotNull(g.getName());
+      assertNotNull(g.sayHello());
    }
 }
