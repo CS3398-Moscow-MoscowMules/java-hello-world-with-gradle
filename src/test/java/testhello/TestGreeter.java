@@ -40,6 +40,5 @@ public class TestGreeter {
    {
       g.setName("Definitely not null!");
       assertNotNull(g.getName());
-      assertNotNull(g.sayHello());
    }
 }
