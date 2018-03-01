@@ -35,11 +35,19 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World War!");
    }
 	
-	@Test
+   @Test
    public void newtestBCGreeterPass() 
    {
       g.setName("Becca");
       assertEquals(g.getName(),"Becca");
       assertEquals(g.sayHello(),"Hello Becca!");
+   }
+	
+   @Test
+   public void newtestBCGreeterFail() 
+   {
+      g.setName("Dr. Lehr");
+      assertEquals(g.getName(),"Dr. Lehr");
+      assertEquals(g.sayHello(),"Hello not Dr. Lehr!");
    }
 }
