@@ -46,6 +46,6 @@ public class TestGreeter {
    public void newTestMDGreeterFail()
    {
 	g.setName("");
-	assertNotNull(g.getName());
+	assertNull(g.getName());
    }
 }
