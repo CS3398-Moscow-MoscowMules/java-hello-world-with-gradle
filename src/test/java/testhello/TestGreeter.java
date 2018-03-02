@@ -35,10 +35,10 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World War!");
    }
    
-   //@Test
-   //public void newtestmdsGreeterPass()
-   //{
-     // g.setName("Pepperoni is the best.");
-      //assertTrue(assertEquals(g.getName(), "Pepperoni is the best."));
-   //}
+   @Test
+   public void newtestmdsGreeterPass()
+   {
+      g.setName("Pepperoni is the best.");
+      assertNotEquals(g.sayHello(), "Pepperoni is the best."));
+   }
 }
