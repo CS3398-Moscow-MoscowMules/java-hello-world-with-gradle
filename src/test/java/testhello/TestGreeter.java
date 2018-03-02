@@ -39,6 +39,6 @@ public class TestGreeter {
    public void newtestmdsGreeterPass()
    {
       g.setName("Pepperoni is the best.");
-      assertNotEquals(g.sayHello(), "Pepperoni is the best."));
+      assertNotEquals(g.sayHello(), "Pepperoni is the best.");
    }
 }
