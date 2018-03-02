@@ -38,7 +38,7 @@ public class TestGreeter {
    @Test
    public void newtestmdsGreeterPass()
    {
-      g.setName("Pepperoni is the best");
+      g.setName("Pepperoni is the best.");
       assertTrue(assertEquals(g.getName(), "Pepperoni is the best."));
    }
 }
