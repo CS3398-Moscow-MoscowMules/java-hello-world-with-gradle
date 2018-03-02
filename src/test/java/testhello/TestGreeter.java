@@ -41,4 +41,11 @@ public class TestGreeter {
       g.setName("Pepperoni is the best.");
       assertNotEquals(g.sayHello(), "Pepperoni is the best.");
    }
+	
+   @Test
+   public void newTestMDGreeterFail()
+   {
+	g.setName("");
+	assertNotNull(g.getName());
+   }
 }
