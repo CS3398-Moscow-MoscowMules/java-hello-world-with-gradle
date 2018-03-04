@@ -39,6 +39,6 @@ public class TestGreeter {
    public void newtestSJGreeterPass() 
    {
       g.setName("foo");
-      assertFalse(g.sayHello(), "foo");
+      assertFalse(g.sayHello() == "foo");
    }
 }
