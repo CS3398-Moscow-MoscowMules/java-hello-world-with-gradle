@@ -38,6 +38,7 @@ public class TestGreeter {
    @Test
    public void newtestSJGreeterPass() 
    {
-      assertNull(g.getName());
+      g.setName("foo");
+      assertFalse(g.sayHello(), "foo");
    }
 }
