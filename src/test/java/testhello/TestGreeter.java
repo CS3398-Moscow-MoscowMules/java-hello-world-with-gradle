@@ -41,4 +41,11 @@ public class TestGreeter {
       g.setName("foo");
       assertFalse(g.sayHello() == "foo");
    }
+	
+   @Test
+   public void newtestSJGreeterFail() 
+   {
+      g.setName("hello");
+      assertTrue(g.sayHello() == g.getName());
+   }
 }
